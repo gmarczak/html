@@ -15,7 +15,7 @@
         </tr>
         <tr>
             <td>
-                <div style="border-top: dotted 3px black;padding-bottom: 10px;"></div>
+                <div style="margin-bottom: 10px;border-top: dotted 3px black;"></div>
             </td>
         </tr>
         <tr>
@@ -24,7 +24,7 @@
                     <fieldset style="border-radius: 20px; border-color: black;">
                         <legend style="text-align: center;">Dane ucznia:</legend>
                         <p style="text-align: center;">Klasa:</p>
-                        <select name="klasa" style="border: solid black 2px; border-radius: 20px; background-color: dimgray;width: 70px;margin-bottom: 10px;">
+                        <select name="klasa" style="border: solid black 2px; border-radius: 20px; background-color: dimgray;width: 85px;margin-bottom: 10px;">
                             <optgroup label="2">
                                 <option>2P</option>
                                 <option>2I</option>
@@ -34,22 +34,22 @@
                                 <option>3I</option>
                             </optgroup>
                         </select>
-
-                        <div style="border-top: dotted 3px black;"></div>
+                    </fieldset>
+                        <div style="margin-top: 10px;border-top: dotted 3px black;"></div>
 
                         <p>Ile stopnii schodów jest do pracowni 515 licząc od bramy głównej</p>
                         <label><input type="radio" name="schody" >32</label>
                         <label><input type="radio" name="schody" >36</label>
                         <label><input type="radio" name="schody" >35</label>
 
-                        <div style="border-bottom: dotted 3px black;margin-top: 10px;"></div>
+                        <div style="margin-top: 10px;border-top: dotted 3px black;"></div>
 
                         <p>2 punkty ponad bazę</p>
-                        <input class="line" type="range" id="send" min="0" max="20" step="2" oninput="this.nextElementSibling.value = this.value" value="2" ><output>2</output>
+                        <input class="line" type="range" name="2" min="0" max="20" step="2" oninput="this.nextElementSibling.value = this.value" value="2" ><output>2</output>
                         <br>
-                        <input class="line" type="range" id="send" min="0" max="20" step="5" oninput="this.nextElementSibling.value = this.value" value="5" ><output>5</output>
+                        <input class="line" type="range" name="5" min="0" max="20" step="5" oninput="this.nextElementSibling.value = this.value" value="5" ><output>5</output>
 
-                        <div style="border-top: dotted 3px black;margin-top: 10px;"></div>
+                        <div style="margin-top: 10px;border-top: dotted 3px black;"></div>
                 </form>
             </td>
         </tr>
