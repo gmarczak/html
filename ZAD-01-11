@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Marczak Grzegorz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAD-01-11</title>
+    <style>
+        .line{width: 200px;}
+    </style>
+</head>
+<body>
+    <p style="text-align: center; border:white dotted 2px; border-radius: 20px; background-color: dimgray;color: white;">Grzegorz Marczak</p>
+        <form style="border: black 1px solid;padding: 10px; width: 400px; border-radius: 20px;">
+            <h1>Formularz rejestracyjny:</h1>
+        
+            <label><b>Podaj swoje nazwisko:</b><input type="text" name="nazwisko" class="line" ></label><br>
+            <label>Podaj swoje imie:<input type="text" name="imie" class="line" style="margin-left: 40px;"></label>
+
+            <p>Wybierz płeć:</p>
+
+            <label><input type="radio" name="plec">Kobieta</label>
+            <label><input type="radio" name="plec">Mezczyzna</label>
+
+            <p>Podaj wiek:</p>
+
+            <input type="text" name="wiek">
+
+            <p>Podaj adres e-mail:</p>
+
+            <input type="email" name="email" class="line">
+
+            <p>Wybierz wykształcenie:</p>
+
+            <label><input type="radio" name="w">Podstawowe</label><br>
+            <label><input type="radio" name="w">Średnie</label><br>
+            <label><input type="radio" name="w">Wyzsze</label><br>
+
+            <p>Wybierz języki:</p>
+
+            <select name="jezyk" multiple size="6">
+                <option>Jezyk angielski</option>
+                <option>Jezyk niemicki</option>
+                <option>Jezyk francuski</option>
+                <option>Jezyk włoski</option>
+                <option>Jezyk rosyjski</option>
+                <option>Jezyk hiszpański</option>
+            </select>
+
+            <p>Wybierz zaintersowania:</p>
+
+            <label><input type="checkbox" name="zaintersowania" id="Motoryzacja">Motoryzacja</label><br>
+            <label><input type="checkbox" name="zaintersowania" id="Sport">Sport</label><br>
+            <label><input type="checkbox" name="zaintersowania" id="Muzyka">Muzyka</label><br>
+            <label><input type="checkbox" name="zaintersowania" id="Taniec">Taniec</label><br>
+            <label><input type="checkbox" name="zaintersowania" id="Gry">Gry komputerowe</label><br>
+            <label><input type="checkbox" name="zaintersowania" id="inne">Inne (podaj jakie):</label><input type="text" name="zaintersowania" style="width: 170px;"><br>
+
+            <p>Wpisz swoje uwagi:</p>
+            <textarea name="uwagi" rows="7" cols="33"></textarea>
+            <p></p>
+            <label><input type="checkbox" name="zgoda"> Zgadzam sie na przetwarzanie moich danych osobowych</label>
+            <p></p>
+        <button type="submit">Wyślij</button> <button type="reset">Wyczyść</button>
+        <p></p>
+    </form>
+</body>
+</html>
