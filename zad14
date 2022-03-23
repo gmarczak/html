@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="auhtor" content="Grzegorz Marczak">
+    <title>Marczak Grzegorz - ZAD14</title>
+    <style>
+        *{padding: 0;margin: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+        body{background-color: azure;}
+        header{padding-top: 32px;color: #78d5fc;width: 1200px;margin: 0 auto;height: 120px;background-image:  url(../bg-header.png);}
+        header p {text-align: center;font-size: 30px;}
+        main{background-color: white;width: 1200px;margin: 0 auto;}
+        main nav ul{padding-top: 25px;padding-left: 25px;}
+        main nav ul li{list-style: none;padding-top: 10px;}
+        nav{width: 175px;border-right: 3px solid #87d5fc;height: 500px;float: left;background-color: white; }
+        .padding-l{padding-left: 18px;}
+        section{background-color: white;height: 500px;}
+        .center{text-align: center;}
+        .gap-1{padding-bottom: 10px;}
+        .space-around-1{color: teal;padding-left: 190px;text-align: justify;}
+        .space-around-2{padding: 20px;padding-left: 200px;text-align: justify;}
+        .box-1{border: white dotted 4px;background-color: #87d5fc;}
+        footer{padding-top: 45px;clear: both;width: 1200px;margin: 0 auto;height: 120px;background-color: white;border-top: 3px #87d5fc dashed;}
+    </style>
+</head>
+<body>
+    <header>
+        <p>Grzegorz Marczak</p>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li>Strona glowna</li>
+                <li>Link - 01</li>
+                <li>Link - 02</li>
+                <li>Link - 03</li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="center gap-1">Strona główna</h1>
+            <p class="space-around-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam delectus cum, sit laboriosam nemo obcaecati, quasi ad accusamus animi perferendis pariatur eius tempora officiis porro sed a minus ipsum.
+            </p>
+            <h2 class="space-around-1">Przykład - 1</h2>
+            <p class="space-around-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis reprehenderit beatae dolores dolorum nisi! Deserunt consequuntur ipsum enim totam, ab illum laudantium aut vitae, suscipit veniam asperiores aperiam odio!
+                Alias, hic esse maxime voluptatem nostrum ad, facere excepturi quos nobis aliquam rerum? Nihil eum, delectus corporis porro reprehenderit neque veritatis ab quod sed quidem, eveniet non aliquid, ipsum perferendis.
+            </p>
+            <h2 class="space-around-1">Przykład - 2</h2>
+            <p class="space-around-2 box-1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quasi veniam, natus, qui, ea exercitationem ut consectetur magnam quas magni ipsam obcaecati ratione! Facere ipsa voluptas assumenda? Accusamus, alias adipisci!
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p class="center">&copy; Grzegorz Marczak 2022</p>
+    </footer>
+</body>
+</html>
